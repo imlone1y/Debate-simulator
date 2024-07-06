@@ -3,7 +3,7 @@ import os
 
 def title_generate():
   client = OpenAI(
-      api_key = "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",
+      api_key = "YOUR-OPENAI-KEY",
   )
 
   completion = client.chat.completions.create(
