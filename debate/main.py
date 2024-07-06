@@ -7,7 +7,7 @@ import os
 from title import title_generate
 
 client = OpenAI(
-      api_key = "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",
+      api_key = "YOUR-OPENAI-KEY",
   )
 
 def delete_assistant(assistant_id):
@@ -18,7 +18,7 @@ def delete_assistant(assistant_id):
 
 # create file
 i=1
-while os.path.isfile(r"C:\Users\justi\OneDrive\Desktop\Python\round " + str(i) + ".txt"):
+while os.path.isfile("YOUR-PATH-TO-FILE" + str(i) + ".txt"):
     i+=1
 file=open("round " + str(i) + ".txt","w")
 
