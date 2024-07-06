@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-      api_key = "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",
+      api_key = "YOUR-OPENAI-KEY",
   )
 
 def negative_assistant_create():
