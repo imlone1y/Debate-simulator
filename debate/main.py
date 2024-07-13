@@ -16,10 +16,7 @@ def delete_assistant(assistant_id):
 
 
 # create file
-i=1
-while os.path.isfile(r"C:\Users\justi\OneDrive\Desktop\Python\round " + str(i) + ".txt"):
-    i+=1
-file=open("round " + str(i) + ".txt","w")
+file=open("record.txt","w")
 
 # create debate title
 question = title_generate()
