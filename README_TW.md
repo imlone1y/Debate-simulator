@@ -31,7 +31,7 @@ pip install -r requirements.txt
 環境配置完成後，可以在 `debate/` 資料夾底下運行 `main.py`。
 
 ```bash
-cd debate
+cd debate/debate_TW
 python main.py
 ```
 
