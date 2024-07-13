@@ -18,13 +18,13 @@ conda create -n debate python=3.11.5
 conda activate debate
 ```
 
-### 運行測試
-
 ```bash
 # 安裝外部程式庫
 cd [項目資料夾路徑]
 pip install -r requirements.txt
 ```
+
+### 運行測試
 
 本項目需要用到 OpenAI API keys，需於 [OpenAI 官網](https://platform.openai.com/api-keys) 申請個人的 API keys (須付費)，並將生成的 keys 複製至 `api_keys.py`。
 
