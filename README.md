@@ -31,7 +31,7 @@ This project requires OpenAI API keys, which can be obtained from the [OpenAI we
 After setting up the environment, you can run `main.py` in the `debate/` folder.
 
 ```bash
-cd debate
+cd debate/debate_EN
 python main.py
 ```
 
