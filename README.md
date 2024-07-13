@@ -20,6 +20,7 @@ conda activate debate
 
 ```bash
 # Install external libraries
+cd [path to project folder]
 pip install -r requirements.txt
 ```
 
@@ -30,7 +31,7 @@ This project requires OpenAI API keys, which can be obtained from the [OpenAI we
 After setting up the environment, you can run `main.py` in the `debate/` folder.
 
 ```bash
-cd [project parent folder]/debate
+cd debate
 python main.py
 ```
 
