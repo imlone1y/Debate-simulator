@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### 運行測試
 
-本項目需要用到 OpenAI API keys，需於 [OpenAI 官網](https://platform.openai.com/api-keys)申請個人的 API keys (須付費)，並將生成的 keys 複製至 `api_keys.py`。
+本項目需要用到 OpenAI API keys，需於 [OpenAI 官網](https://platform.openai.com/api-keys) 申請個人的 API keys (須付費)，並將生成的 keys 複製至 `api_keys.py`。
 
 環境配置完成後，可以在 `debate/` 資料夾底下運行 `main.py`。
 
