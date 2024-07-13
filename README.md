@@ -1,6 +1,6 @@
 # Debate Simulator
 
-[繁體中文](README_TW.md) | [English](README.md)
+[繁體中文](README_TW.md) | English
 
 This project uses two language models to debate on the same topic. Each model represents either the affirmative or the negative side, and they will read each other's testimonies and make rebuttals to simulate a debate. A third model acts as the judge, reading the arguments from both sides and scoring them individually.
 
